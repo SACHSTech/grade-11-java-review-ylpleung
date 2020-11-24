@@ -18,7 +18,7 @@ public class Review3{
       intcount++;
     }
 
-    System.out.println(" ");
+    System.out.println("     ");
 
     System.out.print("29 ");
     while (intcount2 >= 2){

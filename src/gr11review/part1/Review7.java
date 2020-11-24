@@ -31,12 +31,13 @@ public class Review7{
       if(string.charAt(intcount1) != ' '){
         intcountcharacter++;  
       } else{
-        intcountspace++;
-      }
+          intcountspace++;
+        }
       if(string.charAt(intcount1) == 'a'){
         intcounta++;
       }       
     }
+    
     System.out.println("Number of characters: " +intcountcharacter);
     System.out.println("Number of spaces: " +intcountspace);
     System.out.println("Number of a-s: " +intcounta);

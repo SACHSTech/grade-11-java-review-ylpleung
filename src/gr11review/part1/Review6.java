@@ -28,6 +28,7 @@ public class Review6{
       dbltotal = dbltotal +dblprice;
       intcount++;
     }
+    
     System.out.println ("Subtotal = " +df.format(dbltotal));
 
     dbltax = dbltotal*13/100;

@@ -55,6 +55,7 @@ public class Review1 {
       case 12:
       intdaysinmonth = 334;
     }
+    
     intnumberofdays = intdaysinmonth + intday;
 
     System.out.println("number of days: " +intnumberofdays); 

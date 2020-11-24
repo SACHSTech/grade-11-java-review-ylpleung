@@ -33,6 +33,7 @@ public class Review4{
       intcount--;
       intcount2++;
     }
+    
     System.out.println ("Subtotal = " +df.format(dbltotal));
 
     dbltax = dbltotal*13/100;

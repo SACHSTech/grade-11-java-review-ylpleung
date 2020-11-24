@@ -23,23 +23,23 @@ public class Review8{
 
     while (intcount<1000){
       intrandom1 = (int)(Math.random() * 9); 
-      System.out.println(intrandom1);
+      System.out.println(intrandom1 +" ");
       inthundreds = intrandom1*100;
       intrandom2 = (int)(Math.random() * 9); 
-      System.out.print(intrandom2);
+      System.out.print(intrandom2 +" ");
       inttens = intrandom2*10;
       intrandom3 = (int)(Math.random() * 9);  
-      System.out.print(intrandom3);
+      System.out.print(intrandom3 +" ");
       intunits = intrandom3;
-      
-      intdivide = inthundreds + inttens + intunits;
 
-      intcount++; 
+      intdivide = inthundreds + inttens + intunits;
 
       if(intdivide%111==0){
         intcount2++;
       }
-      }
-      System.out.println(intcount2);
+
+      intcount++; 
     }
+    System.out.println("number of repeats " + intcount2);
   }
+}
