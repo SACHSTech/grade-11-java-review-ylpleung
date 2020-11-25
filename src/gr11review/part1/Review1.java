@@ -18,41 +18,29 @@ public class Review1 {
     System.out.println("enter the day");
     intday = Integer.parseInt(keyboard.readLine());
 
-    switch (intmonth) {
-      case 1:
+    if (intmonth == 1){
       intdaysinmonth = 0;
-      break;
-      case 2:
+    }else if(intmonth == 2){
       intdaysinmonth = 31;
-      break;
-      case 3:
+    }else if(intmonth == 3){
       intdaysinmonth = 59;
-      break;
-      case 4:
+    }else if(intmonth == 4){
       intdaysinmonth = 90;
-      break;
-      case 5:
+    }else if(intmonth == 5){
       intdaysinmonth = 120;
-      break;
-      case 6:
+    }else if (intmonth == 6){
       intdaysinmonth = 151;
-      break;
-      case 7:
+    }else if (intmonth == 7){
       intdaysinmonth = 181;
-      break;
-      case 8:
+    }else if (intmonth == 8){
       intdaysinmonth = 212;
-      break;
-      case 9:
+    }else if (intmonth == 9){
       intdaysinmonth = 243;
-      break;
-      case 10:
+    }else if (intmonth == 10){
       intdaysinmonth = 273;
-      break;
-      case 11:
+    }else if (intmonth == 11){
       intdaysinmonth = 304;
-      break;
-      case 12:
+    }else if (intmonth == 12){
       intdaysinmonth = 334;
     }
     

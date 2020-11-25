@@ -11,19 +11,17 @@ public class Review3{
     intcount = 20;
     intcount2 = 28;
 
-    while (intcount<= 100){
+    for(intcount=20;intcount<=100;intcount++){
       if (intcount%2==1){
         System.out.print(intcount +" ");
       } 
-      intcount++;
     }
 
     System.out.println("     ");
 
     System.out.print("29 ");
-    while (intcount2 >= 2){
+    for(intcount2=28;intcount2>= 2;intcount2--){
       System.out.print(" " +intcount2 + " ");
-      intcount2--;
     }
   }
 }

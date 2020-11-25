@@ -26,12 +26,10 @@ public class Review4{
     pattern = "######.00";
     DecimalFormat df=new DecimalFormat(pattern);
 
-    while (intcount>0){
+    for (intcount2 = 1; intcount2<=intcount;intcount2++){
       System.out.println("Enter price of item" + intcount2);
       dblprice = Double.parseDouble(keyboard.readLine());
       dbltotal = dbltotal +dblprice;
-      intcount--;
-      intcount2++;
     }
     
     System.out.println ("Subtotal = " +df.format(dbltotal));
